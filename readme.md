@@ -19,7 +19,7 @@ PS> .\Frontify-Setup-1.8.2.exe /S /D="C:\Program Files\Frontify"
 
 ## Customer Configuration
 
-In order to restrict the some user actions a custom config file has to be created in:
+In order to restrict some user actions a custom config file has to be created on the computer which is running Frontify for Desktop. Keep in mind that this file has to be created for each user separately.
 
 - Windows: `%APPDATA%\Roaming\Frontify Companion\app-config.json`
 - macOS: `~/Library/Application Support/Frontify Companion/app-config.json`
