@@ -37,6 +37,10 @@ Example file:
     - Description: With this option enabled, the user is allowed to download and install updates on his own (requires administrator rights on Windows depending on the installation location).
     - Default: `true`
     - Type: Boolean
+- `autostartApp` (optional)
+    - Description: By default the app will register itself as an autostart application. If you don't want the app to automatically start when the user logs in you can set this to `false`. If this option is not speficied or if it's set to `true` the user can enable/disable autostart by herself/himself.
+    - Default: `undefined`
+    - Type: Boolean
 - `guidelineFilter` (optional)
     - Description: This object defines a filter to include or exclude guidlines in the search scope dropdown menu.
     - Default: `undefined`
