@@ -17,7 +17,7 @@ PS> .\Frontify-Setup-1.8.2.exe /S /D="C:\Program Files\Frontify"
 | `/S`               | Runs the installer in the background without any installation dialog    |
 | `/D="<PATH>"`      | Specifies the installation location (requires Administrator privilege). |
 
-## Customer Configuration
+## Custom Configuration (optional)
 
 In order to restrict some user actions a custom config file has to be created on the computer which is running Frontify for Desktop. Keep in mind that this file has to be created for each user separately.
 
