@@ -9,7 +9,7 @@ If you want to run an automated installation with a Script it's recommended to r
 Here is an example (Powershell):
 
 ```
-PS> .\Frontify-Setup-1.8.2.exe /S /D="C:\Program Files\Frontify"
+PS> .\Frontify-Setup-2.0.0.exe /S /D="C:\Program Files\Frontify"
 ```
 
 | Commandline option | Description                                                             |
