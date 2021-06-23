@@ -22,7 +22,7 @@ PS> .\Frontify-Setup-2.0.0.exe /S /D="C:\Program Files\Frontify"
 Example:
 
 ```
-./Frontify.exe --domain=brand.frontify.com
+./Frontify.exe --domain=brand.frontify.com --autoUpdateEnabled=false
 ```
 
 | CLI argument        | Description                                                                                                                                                                 | Example                       |
