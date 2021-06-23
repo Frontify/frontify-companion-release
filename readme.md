@@ -19,6 +19,12 @@ PS> .\Frontify-Setup-2.0.0.exe /S /D="C:\Program Files\Frontify"
 
 ### CLI arguments
 
+Example:
+
+```
+./Frontify.exe --domain=brand.frontify.com
+```
+
 | CLI argument        | Description                                                                                                                                                                 | Example                       |
 | ------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------- |
 | `domain`            | This is the domain the user should connect to, without "http://" or "https://". If this option is set, the user won't be able to connect to another Frontify instance.      | `--domain=brand.frontify.com` |
