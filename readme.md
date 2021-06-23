@@ -32,4 +32,4 @@ PS> .\Frontify-Setup-2.0.0.exe /S /D="C:\Program Files\Frontify"
 | `excludeDocuments`  | An array of project ids which should be included in the dropdown when changing the search scope.                                                                            | `--excludeGuidelines=1,2,3`   |
 | `excludeProjects`   | An array of project ids which should be excluded from the dropdown when chaning the search scope. This option will be ingored when `includeProjects` is specified.          | `--excludeProjects=1,2,3`     |
 
-If you're using Frontify for Desktop v1.x.x please check out our [legacy customization options](legacy-customization-options).
+If you're using Frontify for Desktop v1.x.x please check out our [legacy customization options](legacy-customization-options.md).
