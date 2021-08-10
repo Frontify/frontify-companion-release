@@ -35,7 +35,7 @@ Example:
 | `includeDocuments`  | An array of guideline ids which should be excluded from the dropdown when chaning the search scope. This option will be ingored when `includeGuidelines` is specified.      | `--includeDocuments=1,2,3`    |
 | `includeProjects`   | An array of document ids which should be included in the dropdown when changing the search scope.                                                                           | `--includeProjects=1,2,3`     |
 | `excludeGuidelines` | An array of document ids which should be excluded from the dropdown when chaning the search scope. This option will be ingored when `includeDocuments` is specified.        | `--excludeGuidelines=1,2,3`   |
-| `excludeDocuments`  | An array of project ids which should be included in the dropdown when changing the search scope.                                                                            | `--excludeGuidelines=1,2,3`   |
+| `excludeDocuments`  | An array of project ids which should be included in the dropdown when changing the search scope.                                                                            | `--excludeDocuments=1,2,3`    |
 | `excludeProjects`   | An array of project ids which should be excluded from the dropdown when chaning the search scope. This option will be ingored when `includeProjects` is specified.          | `--excludeProjects=1,2,3`     |
 
 If you're using Frontify for Desktop v1.x.x please check out our [legacy customization options](legacy-customization-options.md).
