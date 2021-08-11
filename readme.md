@@ -44,7 +44,7 @@ If you're using Frontify for Desktop v1.x.x please check out our [legacy customi
 
 The app will add entries in the Windows Registry depending on if you install the app for just the current user or for all users.
 
-| Installation location | Registry Path                                                     |
-| --------------------- | ----------------------------------------------------------------- |
-| Current user          | `HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run` |
-| All users             | `HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run` |
+| Installation location | Registry Path                                                      |
+| --------------------- | ------------------------------------------------------------------ |
+| Current user          | `HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run`  |
+| All users             | `HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Run` |
