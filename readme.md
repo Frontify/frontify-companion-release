@@ -39,3 +39,12 @@ Example:
 | `excludeProjects`   | An array of project ids which should be excluded from the dropdown when chaning the search scope. This option will be ingored when `includeProjects` is specified.          | `--excludeProjects=1,2,3`     |
 
 If you're using Frontify for Desktop v1.x.x please check out our [legacy customization options](legacy-customization-options.md).
+
+## Windows Registry Entries
+
+The app will add entries in the Windows Registry depending on if you install the app for just the current user or for all users.
+
+| Installation location | Registry Path                                                     |
+| --------------------- | ----------------------------------------------------------------- |
+| Current user          | `HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run` |
+| All users             | `HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run` |
