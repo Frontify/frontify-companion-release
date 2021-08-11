@@ -4,7 +4,7 @@
 
 If you want to run an automated installation with a Script it's recommended to run the installer with the "silent" option. Additionally you can specify the installation location.
 
-Here is an example (Powershell):
+Here is an example using Powershell:
 
 ```
 PS> .\Frontify-Setup-2.0.0.exe /S /D="C:\Program Files\Frontify"
@@ -38,7 +38,7 @@ These CLI arguments can be used to control the app's behavior or restrict some u
 Example:
 
 ```
-.\Frontify.exe --domain=brand.frontify.com --autoUpdateEnabled=false
+PS> .\Frontify.exe --domain=brand.frontify.com --autoUpdateEnabled=false
 ```
 
 | CLI argument        | Description                                                                                                                                                                 | Example                       |
