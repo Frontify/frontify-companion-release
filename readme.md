@@ -29,7 +29,7 @@ Here is a short guide how we would recommend deploying the app in your enterpris
 5. We recommend adding a predefined domain so your employees don't have to type in your brand domain manually. To do so change the shortcut's target to this: `C:\Program Files\Frontify\Frontify.exe --domain=<YOUR_DOMAIN>`
 6. As we assume that your average Windows user doesn't have privileges to install applications on the computer we recommend turning off the auto update mechanism. Change the shortcut's target to `C:\Program Files\Frontify\Frontify.exe --domain=<YOUR_DOMAIN> --autoUpdateEnabled=false`
 7. Check the full documentation on all available [CLI arguments](#cli-arguments) which can be used to control the app's behavior.
-8. If possible you can also change the shortcut's icon to your brand logo so your users will recognize the app.
+8. If possible you can also change the shortcut's icon to your brand logo so your users will recognize the app. [Here](./example-windows-app-icon.ico) is an example `.ico` file that you could use as a reference.
 
 ## CLI arguments
 
