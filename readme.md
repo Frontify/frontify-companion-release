@@ -35,10 +35,16 @@ Here is a short guide how we would recommend deploying the app in your enterpris
 
 These CLI arguments can be used to control the app's behavior or restrict some user actions.
 
-Example:
+Example Windows:
 
 ```
 PS> .\Frontify.exe --domain=brand.frontify.com --autoUpdateEnabled=false
+```
+
+Example macOS:
+
+```
+$ open -a Frontify.app --args --domain=brand.frontify.com --autoUpdateEnabled=false
 ```
 
 | CLI argument        | Description                                                                                                                                                                 | Example                       |
