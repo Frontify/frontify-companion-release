@@ -1,5 +1,12 @@
 # Frontify Desktop App
 
+## Table of contents
+
+- [Installation options](#installation-options)
+- [Deployment in an enterprise Windows environment](#deployment-in-an-enterprise-windows-environment)
+- [CLI arguments](#cli-arguments)
+- [Windows registry entries](#windows-registry-entries)
+
 ## Installation options
 
 If you want to run an automated installation with a Script it's recommended to run the installer with the "silent" option. Additionally you can specify the installation location.
@@ -62,7 +69,7 @@ $ open -a Frontify.app --args --domain=brand.frontify.com --autoUpdateEnabled=fa
 
 If you're using Frontify for Desktop v1.x.x please check out our [legacy customization options](legacy-customization-options.md).
 
-## Windows Registry Entries
+## Windows registry entries
 
 The app will add entries in the following Windows registry paths depending on if you install the app for just the current user or for all users.
 
