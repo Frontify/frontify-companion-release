@@ -43,7 +43,7 @@ Here are example how you can pass the configuration options via commandline argu
 
 The configuration file must be located under:
 
-- Windows: `%APPDATA%/Roaming/Frontify Companion/application-configuration.json`
+- Windows: `%APPDATA%\Frontify Companion\application-configuration.json`
 - macOS: `~/Library/Application Support/Frontify Companion/application-configuration.json`
 
 Here is an example JSON configuration file:
