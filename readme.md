@@ -1,4 +1,4 @@
-# Frontify Desktop App
+# Frontify for Desktop
 
 ## Table of contents
 
