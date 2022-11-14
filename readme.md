@@ -23,12 +23,12 @@ These configuration options can be used to control the app's behavior or restric
 | `brandId`           | This is the id of the brand that you want the user to connect to. If this option is specified the user won't be able to choose another brand in your environment.           |
 | `autoUpdateEnabled` | With this option enabled, the user is allowed to download and install updates on his own (requires administrator rights on Windows depending on the installation location). |
 | `autostartApp`      | By default the app will register itself as an autostart application. If you don't want the app to automatically start when the user logs in you can set this to `false`.    |
-| `includeGuidelines` | An array of guidline ids which should be included in the dropdown when changing the search scope.                                                                           |
-| `includeDocuments`  | An array of guideline ids which should be excluded from the dropdown when chaning the search scope. This option will be ingored when `includeGuidelines` is specified.      |
+| `includeGuidelines` | An array of guideline ids which should be included in the dropdown when changing the search scope.                                                                          |
+| `includeDocuments`  | An array of guideline ids which should be included in the dropdown when changing the search scope. This option will be ignored when `includeGuidelines` is specified.       |
 | `includeProjects`   | An array of document ids which should be included in the dropdown when changing the search scope.                                                                           |
-| `excludeGuidelines` | An array of document ids which should be excluded from the dropdown when chaning the search scope. This option will be ingored when `includeDocuments` is specified.        |
-| `excludeDocuments`  | An array of project ids which should be included in the dropdown when changing the search scope.                                                                            |
-| `excludeProjects`   | An array of project ids which should be excluded from the dropdown when chaning the search scope. This option will be ingored when `includeProjects` is specified.          |
+| `excludeGuidelines` | An array of document ids which should be excluded from the dropdown when changing the search scope. This option will be ignored when `includeDocuments` is specified.       |
+| `excludeDocuments`  | An array of project ids which should be excluded from the dropdown when changing the search scope.                                                                          |
+| `excludeProjects`   | An array of project ids which should be excluded from the dropdown when changing the search scope. This option will be ignored when `includeProjects` is specified.         |
 
 ### Commandline Arguments
 
@@ -38,6 +38,8 @@ Here are example how you can pass the configuration options via commandline argu
 | ---------------- | ----------------------------------------------------------------------------------------------------------------------- |
 | Windows          | `PS> .\Frontify.exe --domain=brand.frontify.com --autoUpdateEnabled=false brandId=1 --excludeProjects=1,2,3`            |
 | macOS            | `$ open -a Frontify.app --args --domain=brand.frontify.com --autoUpdateEnabled=false brandId=1 --excludeProjects=1,2,3` |
+
+’¨
 
 ### Configuration File
 
@@ -63,7 +65,7 @@ If you're using Frontify for Desktop v1.x.x please check out our [legacy customi
 
 ### Installation options
 
-If you want to run an automated installation with a Script it's recommended to run the installer with the "silent" option. Additionally you can specify the installation location.
+If you want to run an automated installation with a Script it's recommended to run the installer with the "silent" option. Additionally, you can specify the installation location.
 
 Here is an example using Powershell:
 
@@ -78,7 +80,7 @@ PS> .\Frontify-Setup-2.0.0.exe /S /D="C:\Program Files\Frontify"
 
 ### Autostart options
 
-By default the application will register itself in the Windows registry for autostart when it's started for the first time. If you want to make the application to start up automatically without the user having to start the application you can create the follwing entry in the Windows registry:
+By default, the application will register itself in the Windows registry for autostart when it's started for the first time. If you want to make the application to start up automatically without the user having to start the application you can create the following entry in the Windows registry:
 
 - Location: `HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run`
 - Name: `electron.app.Frontify`
